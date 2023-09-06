@@ -1,0 +1,122 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppines',sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper{
+    position: fixed;
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.wrapper .logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .logo #menu_bar
+{
+    color: #5f635f;
+    font-size: 35px;
+}
+
+.logo i{
+    padding: 0 5px;
+}
+
+.wrapper .nav_bar{
+    margin-top: 15px;
+}
+
+.wrapper .nav_bar li{
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.wrapper .nav_bar li .nav_bar_label{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    align-items: center;
+    display:flex ;
+    /* margin: 1px; */
+}
+
+.wrapper ul li a i { 
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.submenu {
+    margin: 15px 25px;
+    margin-bottom: 0px;
+}
+  .submenu li {
+    margin-bottom: 5px;
+}
+
+.submenu li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.button_compose a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.button_compose i {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.spacing{
+height: 0;
+margin: 15px;
+}
+
+.button_compose {
+    background-color: #c2e7ff;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.nav_bar_label .submenu2_show{
+    display: none;
+}
+
+.nav_bar_label:hover .submenu2_show{
+    display: block;
+}
+
+/* .nav_bar li a:hover {
+    background: #d3d3d3;
+} */
+
+/* ul{
+    list-style: none;
+} */
